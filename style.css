@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap');
+
+body {
+  background-color: rgb(28, 27, 34);
+}
+
+main {
+  background-color: rgb(43, 42, 51);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  height: 940px;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  color: rgb(178 , 178 , 182);
+  font-family: Oswald;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(178 , 178 , 182);
+  font-weight: bold;
+  font-family: Oswald;
+  font-size: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+#minha_foto {
+  width: 300px;
+  margin: 10px;
+  position:relative;
+  left: 850px;
+  border-radius: 50%;
+}
+
+.lado-esquerdo {
+  float: left;
+  font-family: Open Sans Condensed;
+  font-size: 18px;
+}
+
+.lado-direito {
+  float: rigth;
+  font-family: Open Sans Condensed;
+  font-size: 18px;
+}
+
+#article {
+  border-style: inherit;
+  font-family: Open Sans Condensed;
+  font-size: 18px;
+}
+
+table {
+  border: 1px solid black;
+  font-family: Open Sans Condensed;
+  font-size: 18px;
+}
+
+#titulo {
+  font-size: 46px;
+  color: #FFFFFF;
+  font-family: Oswald;
+}
+
+footer, aside {
+  font-family: Open Sans Condensed;
+  font-size: 18px;
+}
